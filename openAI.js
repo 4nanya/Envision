@@ -6,7 +6,7 @@ import * as Speech from 'expo-speech';
 function openai(promptValues) {
     console.log("Entering OpenAI Function");
 
-  const apiKey = "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";
+  const apiKey = "replace-api-key";
 
   const myPrompt = "Can you describe setting with these words: " + promptValues.toString();
 
